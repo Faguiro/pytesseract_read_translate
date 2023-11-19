@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Extrair Texto de Imagem</title>
+
+        <!-- usar url_for -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+     
+
+    </head>
+
+    <body>
+        <div class="container card">
+            <form id="formulario">
+                <input type="file" name="image" id="imagem" accept="image/*">
+                <button type="submit">Extrair Texto</button>
+            </form>
+
+            <div id="loading">Processando...<i> </i></div>
+            <div id="error-message" style="color: red;"></div>
+
+            <div id="resultado"></div>
+
+            <!-- Adiciona a prévia da imagem -->
+            <div class="imagem-container">
+                <img id="imagem-preview"
+                    style="display: none; max-width: 50%; height: auto; margin-bottom: 1rem; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+
+        </div>
+  
+    <script src="{{ url_for('static',filename='script.js') }}"></script>
+    </body>
+
+</html>

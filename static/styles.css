@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+#resultado {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+/* Centraliza os elementos do formulário */
+#formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Alinha o botão ao centro */
+#formulario button {
+  margin-top: 20px;
+}
+
+/* Estilo para a seção de resultados */
+#resultado {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Alinha as traduções ao centro */
+#resultado ul {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Estiliza a tag p para o texto extraído e o idioma detectado */
+#resultado p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container {
+  align-items: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto 3fr;
+  column-gap: 20px;
+}
+
+#resultado {
+  margin-top: 1rem;
+}
+#resultado p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container {
+  align-items: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto 3fr;
+  column-gap: 20px;
+}
+
+#imagem-preview {
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd; /* Adiciona uma borda à imagem */
+  border-radius: 5px;
+}
+
+#resultado {
+  margin-top: 1rem;
+  text-align: center; /* Centraliza o texto */
+}
+
+#loading {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+.imagem-container {
+  display: flex;
+  justify-content: center;
+}
+/* Estilo para o input de arquivo */
+input#imagem {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Estilo para o botão de envio */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* Estilo para o card de resultados */
+#resultado {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Estilo para o título e traduções */
+.result-header {
+  background-color: lightblue;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.extracted-text,
+.detected-language,
+.translations-title {
+  margin: 0;
+}
+
+.translations-list {
+  list-style: none;
+  padding: 0;
+}
+
+.translation-item {
+  margin-bottom: 10px;
+  background-color: lightyellow;
+}
