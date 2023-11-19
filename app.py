@@ -1,13 +1,10 @@
 from flask import Flask, render_template, request, jsonify, url_for 
 from notification import notify
-
-
 import pytesseract
 from langdetect import detect
 from googletrans import Translator
 
 app = Flask(__name__)
-
 app.static_folder = 'static'
 
 from PIL import Image, ImageEnhance, ImageFilter
