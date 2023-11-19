@@ -1,10 +1,6 @@
 from flask import Flask, render_template, request, jsonify, url_for 
 from notification import notify
 
-try:
-    from PIL import Image, ImageEnhance
-except ImportError:
-    import Image
 
 import pytesseract
 from langdetect import detect
