@@ -7,18 +7,21 @@ O **Extrator e Tradutor de Texto em Imagens** é uma aplicação simples e efica
 ## Como Funciona
 
 1. **Envio da Imagem:** Faça o upload da imagem contendo o texto que você deseja extrair e traduzir.
+
 ![Exemplo de Imagem](prints/print0.png)
 
 
 2. **Extração de Texto:** O aplicativo utiliza tecnologia OCR (Reconhecimento Óptico de Caracteres) para extrair o texto da imagem de forma precisa.
+
 ![Exemplo de Imagem](prints/print1.png)
 
 3. **Detecção de Idioma:** O idioma do texto extraído é automaticamente detectado para garantir uma tradução precisa.
+
 ![Exemplo de Imagem](prints/print2.png)
 
-4. **Tradução para Vários Idiomas:** O texto é traduzido para português, inglês, alemão e espanhol, proporcionando uma compreensão multilíngue do conteúdo.
+7. **Tradução para Vários Idiomas:** O texto é traduzido para português, inglês, alemão e espanhol, proporcionando uma compreensão multilíngue do conteúdo.
 
-5. **Resultados Claros:** Os resultados, incluindo o texto extraído, o idioma detectado e as traduções, são apresentados de maneira organizada para facilitar a compreensão.
+8. **Resultados Claros:** Os resultados, incluindo o texto extraído, o idioma detectado e as traduções, são apresentados de maneira organizada para facilitar a compreensão.
 
 ## Tecnologias Utilizadas
 
